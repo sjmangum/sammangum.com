@@ -4,4 +4,4 @@
 # If you change this key, all old signed cookies will become invalid!
 # Make sure the secret is at least 30 characters and all random,
 # no regular words or you'll be exposed to dictionary attacks.
-SammangumCom::Application.config.secret_token = 'd0c77ab16b248c781a9480e29fdcff73a6f9a960a76258a0b44f197163c671eac2e8198537850a73b64e68aa03b2a241cfb7255b09be3321775418fdd00e35f6'
+SammangumCom::Application.config.secret_token = '1278273e98d32868c4c1e0993c0771837939cf80187baac40bf16542583af4a93f605bd7afe0ce759a819d8285904110ece80f9ccb17d827e8325a90f1bdac94'
