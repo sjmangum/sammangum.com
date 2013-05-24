@@ -44,3 +44,7 @@ gem 'haml-rails'
 
 # To use debugger
 # gem 'debugger'
+
+group :production do
+   gem 'pg', '0.15.1'
+end
