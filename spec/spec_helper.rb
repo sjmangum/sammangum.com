@@ -45,8 +45,10 @@ Spork.prefork do
     #     --seed 1234
     config.order = "random"
 
+    config.include Capybara::DSL
     ActiveSupport::Dependencies.clear
   end
+
 end
 
 Spork.each_run do
